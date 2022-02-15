@@ -1,0 +1,38 @@
+﻿.arrows {
+    font-size: 30px;
+}
+
+#ContentPlaceHolder1_forwardArrow {
+    position: fixed;
+    right: 0;
+}
+
+#ContentPlaceHolder1_backArrow {
+    position: fixed;
+    left: 0;
+}
+
+.animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
+
+.well {
+    display:flex;
+    justify-content:center;
+}
+
+.brrrr{
+    height: 75px;
+    width: 100px;
+    display:block;
+}
+
+#ContentPlaceHolder1_submitReview{
+    margin-top: 10px;
+}
+
+#ContentPlaceHolder1_lblAvgRating {
+    color: #ffa45c;
+}

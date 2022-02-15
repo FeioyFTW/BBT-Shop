@@ -1,0 +1,111 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Martel:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700&display=swap');
+
+.maincontainer {
+    height: auto;
+    width: 83%;
+    margin: 0 auto;
+}
+
+.searchBar {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 25px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px 5px 5px 5px;
+}
+
+.searchField {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+    border-bottom: solid black 2px;
+}
+
+.fa {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+.searchBar:hover,
+.searchBar:valid {
+    width: 200px;
+    cursor: pointer;
+}
+
+    .searchBar:hover .searchField,
+    .searchBar:valid .searchField {
+        display: block;
+    }
+
+    .searchBar:hover .fa,
+    .searchBar:valid .fa {
+        background: #07051a;
+        color: white;
+    }
+
+
+.clearBtn {
+    display: none;
+    position: absolute;
+    color: white;
+    text-align: center;
+    border: none;
+    background: none;
+    color: black;
+    width: 20px;
+    height: 20px;
+    margin-left: 120px;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+.clearBtn:hover{
+    cursor: pointer;
+}
+
+
+.searchBar:hover .clearBtn {
+    display: block;
+}
+
+.loginContainer {
+    padding-right: 30px;
+}
+
+.loginBtn {
+    font-size: 35px;
+}
